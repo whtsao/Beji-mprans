@@ -46,14 +46,14 @@ opts=Context.Options([
     ("T", 60.0, "Simulation time"),
     ("dt_init", 0.001, "Initial time step"),
     ("dt_fixed", None, "Fixed (maximum) time step"),
-    ("timeIntegration", "BackwardEuler", "Time integration scheme (backwardEuler/VBDF)"),
+    ("timeIntegration", "BackwardEuler", "Time integration scheme (BackwardEuler/VBDF)"),
     ("cfl", 0.33 , "Target cfl"),
     ("nsave",  10, "Number of time steps to save per second"),
     ("useRANS", 0, "RANS model"),
-    ("dt_out", 0.001, "output time interval"),   #---tsao add---#
+    ("dt_out", 0.01, "output time interval"),   #---tsao add---#
     ])
 
-
+# VBDF
 
 # ----- CONTEXT ------ #
 
